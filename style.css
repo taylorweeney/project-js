@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --brown: rgb(95, 57, 13);
+}
+html {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAOK_j8QI8BFXhzgvJFpbKLPj6yWMSs0_MGTXurD_arjBsm4dg:https://lucieannabel.com/cdn/shop/files/LAN100085_Heritage-Plain---Vintage-Cream_Thumbnail_WEB_10cd8260-c005-4a1f-bbfd-9fe35e50d7c3_1000x.jpg%3Fv%3D1701339042&s");
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.border {
+    border-top: 2px solid var(--brown);
+    border-right: 2px solid var(--brown);
+    padding: 10px;
+    width: 84%;
+    height: 25em;
+}
+.right {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    width: 84%;
+    margin-bottom: 15px;
+}
+.product-name {
+    border-top: 2px solid var(--brown);
+    border-right: 2px solid var(--brown);
+    width: 15%;
+    padding: 5px;
+}
+.product-price {
+    border-bottom: 2px solid var(--brown);
+    border-left: 2px solid var(--brown);
+    width: 15%;
+    padding: 5px;
+}
+* {
+    font-family: "Playfair Display";
+}
+.search-input {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid var(--brown);
+}
